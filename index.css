@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 480px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.container img{
+    width: 480px;
+}
