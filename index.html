@@ -24,26 +24,50 @@
         </div>
     </header>
     <main>
-        <div class="main-container"  id="main-container">
-            <!-- items here -->
-            <div class="menu-item">
-                <div class="menu-item-details">
-                    <div class="menu-item-image">
-                        <img src="./images/pizza.png">
-                    </div>
-                    <div class="menu-item-text">
-                        <h2>Pizza</h2>
-                        <p>pepperoni, mushrom, mozarella</p>
-                        <p id="price">$14</p>
-                    </div>
-                </div>
-                <div class="menu-item-button">
-                    <button id="add-button">
-                        <i class="fa-solid fa-plus"></i>
-                    </button>
-                </div>
+        <section class="main-container">            
+            <div id="menu-container">
+                <!-- items here -->
             </div>
-        </div>
+            <div class="order-container" id="order-container">
+                <h2>Your Order</h2>
+                <div class="ordered-list" id="ordered-list">
+                    <div>
+                        <p>Pizza</p>
+                        <button class="remove-btn">remove</button>
+                    </div>
+                    <div>
+                        <p>$10.99</p>
+                    </div>
+                </div>                            
+                <div class="ordered-list" id="ordered-list">
+                    <div>
+                        <p>Burger</p>
+                        <button class="remove-btn">remove</button>
+                    </div>
+                    <div>
+                        <p>$10.99</p>
+                    </div>
+                </div>                            
+                <div class="ordered-list" id="ordered-list">
+                    <div>
+                        <p>Beer</p>
+                        <button class="remove-btn">remove</button>
+                    </div>
+                    <div>
+                        <p>$10.99</p>
+                    </div>
+                </div>                            
+            </div>
+            <div class="ordered-list" id="ordered-list">
+                <div>
+                    <p>Total price:</p>
+                </div>
+                <div>
+                    <p>$30.99</p>
+                </div>
+            </div> 
+            <button class="complete-order-btn">Complete order</button>            
+        </section>
     </main>
     <footer>
     </footer>

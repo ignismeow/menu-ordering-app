@@ -38,7 +38,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid rgb(194, 193, 193);
+    border-bottom: 1px solid rgb(194, 193, 193);
     margin-top: 30px;
     padding-bottom: 30px;
 }
@@ -55,7 +55,7 @@ body{
 }
 
 .menu-item-text{
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .menu-item-text h2{
@@ -88,6 +88,50 @@ body{
     cursor: pointer;
     width: 50px;
     height: 50px;
+}
+
+.order-container{
+    background: white;
+    color: black;
+    font-size: .7rem;
     text-align: center;
-    align-items: center;
+    margin: 20px 0 10px 0;
+    border-bottom: 2px solid rgb(165, 165, 165);
+}
+
+.ordered-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.remove-btn{
+    background-color: white;
+    border: none;
+    font-family: "Gowun Batang", serif;
+    cursor: pointer;
+    font-size: .7rem;
+}
+
+.remove-btn:hover{
+    color: gray;
+}
+
+.ordered-list p{
+    display: inline-block;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.complete-order-btn{
+    background-color: #16DB99;
+    border: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
 }
