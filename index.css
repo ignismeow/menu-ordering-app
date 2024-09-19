@@ -78,7 +78,7 @@ body{
     margin-top: 5px;
 }
 
-#add-button{
+.add-button{
     background-color: white;
     border: 1px solid rgb(194, 193, 193);
     border-radius: 100%;
@@ -134,4 +134,12 @@ body{
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
 }
