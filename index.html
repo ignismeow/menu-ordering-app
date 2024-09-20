@@ -28,13 +28,30 @@
             <div id="menu-container">
                 <!-- items here -->
             </div>
-            <div class="order-container" id="order-container">
+            <div id="your-order-heading">
                 <h2>Your Order</h2>                    
             </div>
-            <div class="your-order hidden" id="your-order">
-                
-            </div>
+            <div class="your-order-container" id="your-order-container"></div>
+            <div class="total-price" id="total-price"></div>                
             <button class="complete-order-btn">Complete order</button>
+
+                        <!-- Pop-up form for card details -->
+            <div id="card-details-popup" class="popup hidden">
+                <div class="popup-content">
+                    <h3>Enter card details</h3>
+                    <form id="payment-form">
+                        <input type="text" placeholder="Enter your name" required id="name">
+                        <input type="text" placeholder="Enter card number" required>
+                        <input type="password" placeholder="Enter CVV" required>
+                        <button type="submit">Pay</button>
+                    </form>
+                </div>
+            </div>
+
+                        <!-- Success message container -->
+            <div id="order-success-message" class="success-message hidden">
+                <p>Thanks, <span id="customer-name"></span>! Your order is on its way!</p>
+            </div>
         </section>
     </main>
     <footer>
